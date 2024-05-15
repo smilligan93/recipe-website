@@ -1,10 +1,9 @@
-import { IngredientType } from './IngredientType';
-import { TemperatureType } from './TemperatureType';
-
 export type RecipeType = {
     name: string;
-    ovenTemperature?: TemperatureType;
-    instructions: string | string[];
-    ingredients: IngredientType[];
-    subRecipes?: RecipeType[];
+    ovenTemperature?: string;
+    instructions: string[];
+    ingredients: string[];
+    notes?: string;
+    totalTime?: string;
+    quantity?: string;
 };

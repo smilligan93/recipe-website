@@ -11,8 +11,6 @@
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
     "eslint": "^8.18.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-typescript-prettier": "^5.0.0",
     "eslint-config-react-app": "^7.0.1",
     "grommet": "^2.24.0",
     "react": "^18.2.0",
@@ -29,9 +27,6 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "airbnb-typescript-prettier"
-    ],
     "settings": {
       "import/resolver": {
         "node": {
